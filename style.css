@@ -43,7 +43,10 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2% 10%;
+    padding-top: 0;
+    padding-bottom: 4%;
+    padding-right: 10%;
+    padding-left: 10%;
     color: white;
 }
 
@@ -85,7 +88,7 @@ a {
     text-align: center;
     justify-content: center;
     gap: 52px;
-    padding: 100px;
+    padding: 4% 10%;
 }
 
 .images {
