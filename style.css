@@ -85,15 +85,41 @@ a {
     text-align: center;
     justify-content: center;
     gap: 52px;
+    padding: 100px;
 }
 
 .images {
     height: 300px;
 }
+
 #pic-heading {
     font-size: 36px;
     color: #1f2937;
     font-weight: bold;
     text-align: center;
     padding: 30px;
+}
+
+/* section 3 container */
+
+#section3 {
+    background-color: #e5e7eb;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    max-width: 50vw;
+}
+
+#quote-source {
+    text-align: end;
+    color: #1f2937;
+    font-size: 18px;
+    font-weight: bold;
 }
