@@ -53,7 +53,7 @@ a {
 
 .header-hero {
     font-size: 48px;
-    font-weight: 500; 
+    font-weight: bold; 
     
 }
 
@@ -90,11 +90,10 @@ a {
 .images {
     height: 300px;
 }
-
-.pic-heading {
+#pic-heading {
     font-size: 36px;
     color: #1f2937;
-    font-weight: 500;
+    font-weight: bold;
     text-align: center;
     padding: 30px;
 }
