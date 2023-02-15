@@ -9,6 +9,14 @@
     background-color: #1f2937;
 }
 
+.container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 52px;
+    padding: 4% 10%;
+}
+
 /* for nav bar */
 .nav {
     display: flex;
@@ -71,8 +79,6 @@ a {
     border-radius: 8px;
     color: white;
     background: #3882f6
-    
-
 }
 
 .content-left {
@@ -83,16 +89,23 @@ a {
 }
 /*section 2 container */
 
-.container {
+#section2-container {
     display: flex;
     text-align: center;
     justify-content: center;
     gap: 52px;
-    padding: 4% 10%;
+    padding-top: 2%
 }
 
 .images {
-    height: 300px;
+    width: 300px;
+    height: 375px;
+    padding: 5px;
+}
+
+.info {
+    max-width: 300px;
+    
 }
 
 #pic-heading {
@@ -100,7 +113,8 @@ a {
     color: #1f2937;
     font-weight: bold;
     text-align: center;
-    padding: 30px;
+    padding-top: 2%;
+    padding-bottom: 0;
 }
 
 /* section 3 container */
